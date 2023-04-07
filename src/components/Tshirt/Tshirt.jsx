@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Tshirt = ({ tshirt,handleAddToCart }) => {
-    console.log(tshirt);
+    // console.log(tshirt);
     const { picture, _id, name, price, index, } = tshirt;
     return (
         <div className='border rounded-md p-3 text-center'>
